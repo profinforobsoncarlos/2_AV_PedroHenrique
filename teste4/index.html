@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="estilo.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de cadastro</title>
+    <style>
+        p{
+            font: 12pt Arial rgb(10, 207, 59);
+        }
+        fieldset{
+            width: 200px;
+            font: 11pt Arial;
+        }
+        label{
+            font: 11pt Arial;
+        }
+    </style>
+
+</head>
+<body>
+
+<div>
+    |-----------------------------------------------------------------------------------------------------|<br/>
+    <p>Procedimento de Cadastro</p>
+
+    <form action="cadastro.php" method="get">
+       
+        <label for="nome">Digite seu nome: </label><br/>
+        <input type="text" name="nome" id="nome"/><br/>
+
+        <label for="data">Digite seu ano de nascimeto</label><br/>
+        <input type="date" name="data" id="data"><br/>
+        
+        <label for="sexo">Sexo: </label><br/>
+
+        <fieldset>
+        <input type="radio" name="sexo" id="m">
+        <label for="m">Masculino</label>
+
+        <input type="radio" name="sexo" id="f">
+        <label for="m">Feminino</label>
+        </fieldset>
+    
+        <label for="prof">Profissão: </label><br/>
+        <input type="text" name="prof" id="prof"><br/>
+
+        <label for="sciv">Staus Civil: </label><br/>
+        <input type="text" name="sciv" id="sciv"><br/>
+
+        <label for="email">Endereço email:</label><br/>
+        <input type="email" name="email" id="email"><br/>
+
+        <button type="submit">Cadastras-se</button>
+    </form>
+    |-----------------------------------------------------------------------------------------------------|<br/>
+</div>
+</body>
+</html>
