@@ -9,6 +9,7 @@
 <body>
 
 <div>
+  <!--Apesar de seu código está rodando normalmente, ele está códificado de maneira errada. Confira no GitHub o modelo correto que o professor irá disponibilizar.-->
     <?php 
       $nome = $_GET["nome"];
       $idade = $_GET["idade"];

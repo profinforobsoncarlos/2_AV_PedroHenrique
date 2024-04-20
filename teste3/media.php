@@ -26,7 +26,9 @@
             echo "O aluno foi reprovado com nota $media<br/>";
         }
     ?>
-    <button><a href="index.html">Retornar</a></button>
+    <button><a href="index.html">Retornar</a></button> <!--Esse código está errado, a sequencia correta é tag <a> e depois dentro desta mesmo tag, a Tag <buuton>
+        ex.:<a href="http://"><button></button></a> -->
+        
 </div>
 </body>
 </html>
